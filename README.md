@@ -62,21 +62,7 @@ https://platform.openai.com/signup
 ```sh
 https://nodejs.org/en/
 ```
-### Install git
-```sh
-https://git-scm.com/downloads
-```
-### Create a new folder and navigate to it in terminal to set up git
-```sh
-git init
-```
-### Navigate to new git folder in terminal and clone this repository
-```sh
-git clone https://github.com/Lane-G-Smith/Vanilla-JS-Discord-Bot-GPT-3.5-Turbo.git
-```
-### Navigate to Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and install dependencies
-```sh
-npm install
+
 ```
 ### .env內容
 
