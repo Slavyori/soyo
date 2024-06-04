@@ -50,15 +50,15 @@
 
 # GPT-3.5-Turbo bot installation and deloyment Instructions
 
-### Get the bot 'shell' from Discord. It's free, and it takes 5 minutes
+### 建立機器人
 ```sh
 https://discord.com/developers/applications
 ```
-### Go to OpenAI and open an account
+### 建立你的OpenAI帳戶（本來就有帳號也可以直接用）
 ```sh
 https://platform.openai.com/signup
 ```
-### Install node.js
+### 下載 node.js
 ```sh
 https://nodejs.org/en/
 ```
@@ -78,7 +78,10 @@ git clone https://github.com/Lane-G-Smith/Vanilla-JS-Discord-Bot-GPT-3.5-Turbo.g
 ```sh
 npm install
 ```
-### .env內的TOKEN後面放入機器人金鑰，OPENAI_API_KEY後面放入OpenAI金鑰
+### .env內容
+
+TOKEN=放入機器人金鑰
+OPENAI_API_KEY=放入OpenAI金鑰
 
 ### 運行code
 ```sh
