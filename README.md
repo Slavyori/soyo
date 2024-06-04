@@ -78,32 +78,18 @@ git clone https://github.com/Lane-G-Smith/Vanilla-JS-Discord-Bot-GPT-3.5-Turbo.g
 ```sh
 npm install
 ```
-### Create new file in Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and name it .env
-### Place your secret Discord bot token from the first step into the .env file
+### .env內的TOKEN後面放入機器人金鑰，OPENAI_API_KEY後面放入OpenAI金鑰
+
+### 運行code
 ```sh
-TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
+node soyo.js
 ```
-### Place your secret OpenAI API key from the second step into the .env file
-```sh
-TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
-```
-### Modify three lines in the code (40,41,42, self explanatory when you look at it) to personalize functionality
-```sh
-The characteristics of your AI and how to answer questions, one example question, one example answer
-```
-### To host the bot locally, open project in terminal and run node
-```sh
-node index.js
-```
-### To host the bot locally and keep it running in the background indefinitely, install PM2
+### 雲段執行pm2伺服器下載（才不用一直開著code軟體）
 ```sh
 npm install pm2 -g
 ```
-### run your bot locally using pm2 https://pm2.keymetrics.io/
+### pm2運行
 ```sh
-pm2 start index.js
+pm2 start soyo.js
 ```
-### congratulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
-```sh
-https://discord.com/developers/applications
-```
+
